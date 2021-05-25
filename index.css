@@ -3,23 +3,34 @@
     font-family: 'Rationale', sans-serif;
 }
 
-.introContainer {
-    min-height: 100vh;
+body {
     display: flex;
-    justify-content: center;
+    height: 100vh;
+    width: 100vw;
     align-items: center;
-    background-color: aquamarine;
+}
+
+.introContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 10px;
 }
 
 .topLine, .bottomLine {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 60px;
+    width: 100vw;
+    text-align: center;
     color: #FFFFFF;
-    font-size: 70px;
 }
 
-.image {
+.imageContainer {
     display: flex;
+    width: 100vw;
     justify-content: center;
+}
+
+#introImage {
+    max-width: 100%;
+    height: auto;
 }
