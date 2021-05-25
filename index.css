@@ -3,6 +3,12 @@
     font-family: 'Rationale', sans-serif;
 }
 
+.intro {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .topLine, .bottomLine {
     display: flex;
