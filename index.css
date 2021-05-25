@@ -1,0 +1,17 @@
+* {
+    background-color: #75BBB3;
+    font-family: 'Rationale', sans-serif;
+}
+
+
+.topLine, .bottomLine {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 70px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
