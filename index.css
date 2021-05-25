@@ -3,16 +3,18 @@
     font-family: 'Rationale', sans-serif;
 }
 
-.intro {
+.introContainer {
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: aquamarine;
 }
 
 .topLine, .bottomLine {
     display: flex;
     justify-content: center;
+    align-items: center;
     color: #FFFFFF;
     font-size: 70px;
 }
