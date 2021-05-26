@@ -1,0 +1,29 @@
+* {
+    background-color: #FFEFCE;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.introText {
+    display: flex;
+    height: 40vh;
+    width: 100vw;
+    text-align: center;
+    color: #734830;
+}
+
+.interactiveComponent {
+    display: flex;
+    height: 60vh;
+    width: 100vw;
+    justify-content: center;
+    text-align: center;
+}
