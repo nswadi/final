@@ -14,7 +14,7 @@
 
 .introText {
     display: flex;
-    height: 40vh;
+    height: 20vh;
     width: 100vw;
     text-align: center;
     color: #734830;
@@ -30,7 +30,7 @@
 
 .interactiveComponent {
     display: flex;
-    height: 60vh;
+    height: 80vh;
     width: 100vw;
     justify-content: center;
     text-align: center;
@@ -43,10 +43,11 @@ div.tileBox {
     display: block;
 }
 
-div.tile {
+.tappableButton {
     height: 100px;
     width: 100px;
     vertical-align: top;
+    background-color: #c2e8e3;
 
     display: inline-flex;
     flex-direction: column;
@@ -54,10 +55,6 @@ div.tile {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     margin: 20px;
-}
-
-#white {
-    background-color: #f8fffe;
 }
 
 #teal {
